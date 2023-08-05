@@ -8,8 +8,9 @@ public class HesapMakinesiTest {
 
     @Test
     public void testTopla() {
+        int beklenenSonuc = 8;
         int sonuc = hesapMakinesi.topla(5, 3);
-        Assert.assertEquals(8, sonuc);
+        Assert.assertEquals(beklenenSonuc, sonuc);
     }
 
     @Test
